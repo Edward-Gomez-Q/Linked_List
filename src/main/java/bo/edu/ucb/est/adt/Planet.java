@@ -40,7 +40,7 @@ public class Planet implements Comparable {
         if(object!=null && object instanceof Planet)
         {
             Planet other =(Planet)object;
-            return other.radius/this.radius;
+            return this.radius/other.radius;
         }
         else
         {
